@@ -1,6 +1,5 @@
 .wrapper{
   display: flex;
-
   /* justify-content: space-around; */
 }
 
@@ -55,17 +54,111 @@ overflow: scroll
   /* background-color: #ffffff; */
   height: 100px;
   padding: 0 40px;
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+}
+.chat_room p{
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+  /* background-color: blue; */
+
 
 }
+.end_btn a{
+  text-decoration: none;
+  color: darkred;
+  /* font-size: 10px; */
+  border: solid 1px darkred;
+  padding: 20px;
+}
+.room_exit{
+  margin-top: 40px;
+
+}
+
+
+
+
 .messages{
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
+overflow: scroll;
+}
+.chat_div{
+margin-top: 10px;
+margin-bottom: 40px;
 
 }
+  .name_date{
+    /* margin-top: 10px; */
+display: flex;
+  }
+    .name{
+font-size: 16px;
+color: #434A54;
+    }
+    .date{
+margin-left: 10px;
+font-size: 12px;
+color: #999;
+
+    }
+  .message{
+    font-size: 14px;
+    color: #434A54;
+    /* margin-bottom: 40px; */
+    margin-top: 10px;
+
+    /* background-color: lightblue; */
+
+  }
+
 .form{
   background-color: #DDDDDD;
   height: 90px;
+  /* width: 100vw; */
   padding: 20px 40px;
 
+display: flex;
+/* justify-content: center; */
+
+}
+.text_box{
+  background-color: white;
+  width: 100%;
+display: flex;
+}
+.new_message{
+  padding-left: 10px;
+border: none;
+height: 50px;
+width: 100%;
+
+}
+.form_image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+
+}
+.hidden {
+  display: none;
+}
+.btn_send{
+  /* text-decoration: none; */
+  color: white;
+  /* font-size: 10px; */
+  border: none;
+  padding: 0 20px;
+  background-color: #38AEF0;
+font-size: 16px;
+height: 50px;
+margin-left: 15px;
 }

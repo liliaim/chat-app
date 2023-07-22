@@ -1,22 +1,38 @@
   <div class="chat_header">
-    <label class="room_name">部屋の名前</label>
-    <a href="" class="end_btn">チャットを終了する</a>
+    <div class="chat_room"><p>部屋の名前</p></div>
+    <div class="room_exit"><div class="end_btn"><a href="">チャットを終了する</a></div></div>
   </div>
   <div class="messages">
     <!-- 一つのMESSAGE -->
     <div class="chat_div">
-      <div class="name">Tom</div>
-      <div class="date">2021/05/10</div>
+      <div class="name_date">
+        <div class="name">Tom</div>
+        <div class="date">2021/05/10</div>
+      </div>
       <div class="message">おはよう</div>
+    </div>
+    <div class="chat_div">
+      <div class="name_date">
+        <div class="name">Tom2</div>
+        <div class="date">2021/05/10</div>
+      </div>
+      <div class="message">おはよう2</div>
     </div>
 
   </div>
+  <%# <div class="footer"> %>
   <div class="form">
     <div class="text_box">
       <input type="text" placeholder="type a message" class="new_message">
-      <input type="button" value="画像" class="btn_pic_add">
+      <%# <input type="button" value="画像" class="btn_pic_add"> %>
+      <label class="form_image">
+        <span class="image-file">画像</span>
+        <input type="file" class="hidden">
+      </label>
+
     </div>
-    <input type="submit" value="送信">
+    <input type="submit" value="送信" class="btn_send">
 
   </div>
+  <%# </div> %>
 
