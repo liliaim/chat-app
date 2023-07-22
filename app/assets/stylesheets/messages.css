@@ -10,28 +10,47 @@
   width: 300px;
 }
 .side_bar_header{
-  /* background-color: #253141; */
+  background-color: #253141;
   height: 100px;
   padding: 0 20px;
-
+/* text-align: center; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header_name a{
+text-decoration: none;
+color: #FAFAFA;
+font-size: 16px;
+}
+.create_room a{
+  text-decoration: none;
+  color: deepskyblue;
+  font-size: 10px;
+  border: solid 1px lightblue;
+  padding: 14px;
 }
 .rooms{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
-
+overflow: scroll
 }
+.room{
+  padding: 20px 0px 40px;
+}
+.room_name a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
 
 .chat{
   background-color: #ffffff;
-  /* height: 1200px; */
   width: calc(100vw - 300px);
 }
-
-
-
-
-
 .chat_header{
   /* background-color: #ffffff; */
   height: 100px;
